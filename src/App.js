@@ -29,7 +29,7 @@ function App() {
       !selectedPriceOption ||
       !selectedTypeOption
     ) {
-      return toast.error("🦄 Please Select All the filters!", {
+      return toast.error("🦄 Please Select All the filters", {
         position: "top-right",
         autoClose: 3000,
         hideProgressBar: false,
